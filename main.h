@@ -10,7 +10,12 @@
 #include "Arduino.h"
 
 //add your includes for the project here
-#include "server.h"
+#include "serialServer.h"
+#include "butled.h"
+#include "blink.h"
+#include "scanI2C.h"
+#include "esp8266.h"
+#include "adxl345.h"
 
 //end of add your includes here
 
