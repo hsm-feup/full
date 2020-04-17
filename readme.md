@@ -19,3 +19,24 @@ linha 1.
 linha 2
 
 linha 3
+
+# Code
+Exemplo:
+```
+from PyQt5 import QtWidgets
+from PyQt5.QtWidgets import QApplication, QMainWindow
+import sys
+
+def window():
+    app = QApplication(sys.argv)
+    win = QMainWindow()
+    win.setGeometry(200, 300, 320, 240)
+    win.setWindowTitle('Test PyQt5')
+
+    win.show()
+    sys.exit(app.exec_())
+
+window()
+```
+
+Percebido?
